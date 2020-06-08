@@ -2,8 +2,6 @@
 *.ipr
 *.iws
 *.jar
-.#*
-.*.md.html
 .DS_Store
 .classpath
 .factorypath
@@ -13,17 +11,8 @@
 .project
 .recommenders
 .settings
-.springBeans
-/code
 MANIFEST.MF
-_site/
 bin
 build
-build.log
-dependency-reduced-pom.xml
-dump.rdb
-interpolated*.xml
-lib/
 manifest.yml
-out
 target
