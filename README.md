@@ -43,4 +43,5 @@ Meeting service used for booking requests for meetings in the boardroom.
       * Integration tests are not added currently
   2. Persistence of entity is a dummy module. Persistence of calendar needs to be defined
   3. Exception handling is more generic, and needs to be more refined.
+  4. Generic validator used covers only null case currently. Need to improved to accommodate more generic validations
   

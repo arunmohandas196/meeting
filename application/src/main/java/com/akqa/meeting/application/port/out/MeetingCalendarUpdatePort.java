@@ -6,5 +6,5 @@ import org.springframework.stereotype.Component;
 @Component
 public interface MeetingCalendarUpdatePort {
 
-  public void updateCalendar(MeetingCalendar meetingCalendar);
+    void updateCalendar(MeetingCalendar meetingCalendar);
 }

@@ -12,6 +12,6 @@ import java.util.TreeMap;
 @RequiredArgsConstructor
 @Getter
 public class MeetingCalendar {
-  private OfficeHour officeHour;
-  private TreeMap<LocalDate, List<Meeting>> dailyMeetingsMap;
+    private OfficeHour officeHour;
+    private TreeMap<LocalDate, List<Meeting>> dailyMeetingsMap;
 }

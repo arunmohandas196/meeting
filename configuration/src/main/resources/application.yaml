@@ -1,2 +1,2 @@
-meeting:
-  dateFormat: yyyy-MM-dd
+server:
+  port: 8090

@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 @AllArgsConstructor
 public class MeetingCalenderUpdateService implements MeetingCalendarUpdatePort {
 
-  @Override
-  public void updateCalendar(MeetingCalendar meetingCalendar) {}
+    @Override
+    public void updateCalendar(MeetingCalendar meetingCalendar) {
+    }
 }
