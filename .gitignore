@@ -4,17 +4,14 @@
 *.jar
 .DS_Store
 .classpath
-.factorypath
 .gradle
 .idea
 .metadata
 .project
-.recommenders
 .settings
 MANIFEST.MF
 bin
 build
 manifest.yml
-out
 target
 
