@@ -1,12 +1,12 @@
 # Meeting 
 Meeting service used for booking requests for meetings in the boardroom.
 
-#Architecture
+# Architecture
 * Following a hexagonal architecture.
 * Core business logic resides in `application` module
 * `application` module interacts with external dependencies using `adapters`
 
-#Modules
+# Modules
 * `application`
    1. Core business logic for the service resides here
    2. Uses `adapters` to interact with external components (web/persistence etc)
@@ -27,7 +27,7 @@ Meeting service used for booking requests for meetings in the boardroom.
    
 
 
-### How to run 
+# How to run 
 
 ```
         mvn clean install
@@ -37,7 +37,7 @@ Meeting service used for booking requests for meetings in the boardroom.
 * Application starts in console mode taking input from console
 * New line after last input starts processing from console
 
-### Scopes to improve
+# Scopes to improve
   1. Test Coverage: 
       * Currently tests are added only for business logic `application` module. This needs to be improved
       * Integration tests are not added currently
