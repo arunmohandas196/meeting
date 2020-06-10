@@ -1,0 +1,17 @@
+*.iml
+*.ipr
+*.iws
+*.jar
+.DS_Store
+.classpath
+.gradle
+.idea
+.metadata
+.project
+.settings
+MANIFEST.MF
+bin
+build
+manifest.yml
+target
+
